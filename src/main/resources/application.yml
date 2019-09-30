@@ -1,0 +1,10 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /demo
+logging:
+  level:
+    #项目日志级别
+    com.demo: debug
+    #spring日志级别
+    org.springframework: info
