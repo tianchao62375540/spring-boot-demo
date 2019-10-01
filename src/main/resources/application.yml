@@ -8,3 +8,14 @@ logging:
     com.demo: debug
     #spring日志级别
     org.springframework: info
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/heima-boot-demo
+    username: root
+    password:
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  #mapper-locations: mapper/*.xml
+  type-aliases-package: com.demo.pojo
